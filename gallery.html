@@ -1,0 +1,74 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Our Memories</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Our Gallery 📷</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="letter.html">Letters</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="gallery">
+    <h2>Captured Moments</h2>
+    <div class="gallery-grid">
+      <!-- Replace src with your own images inside /assets/images/ -->
+      <img src="assets/images/pic1.jpg" alt="Memory 1" data-date="05 Aug 2023 - We started GYM together 💕">>
+      <img src="assets/images/pic2.jpg" alt="Memory 2" data-date="17 Aug 2023 - Kantaoui 💕">>
+      <img src="assets/images/pic3.jpg" alt="Memory 3" data-date="17 Aug 2023 - Kantaoui 💕">>
+      <img src="assets/images/pic4.jpg" alt="Memory 4" data-date="17 Aug 2023 - Kantaoui 💕">>
+      <img src="assets/images/pic5.jpg" alt="Memory 5" data-date="17 Aug 2023 - Kantaoui 💕">>
+      <img src="assets/images/pic6.jpg" alt="Memory 6" data-date="25 Aug 2023 - Blackberry 💕">>
+      <img src="assets/images/pic7.jpg" alt="Memory 7" data-date="25 Aug 2023 - Blackberry 💕">>
+      <img src="assets/images/pic8.jpg" alt="Memory 8" data-date="02 Sep 2023 - GYM 💕">>
+      <img src="assets/images/pic9.jpg" alt="Memory 9" data-date="25 Nov 2023 - Preface 💕">>
+      <img src="assets/images/pic10.jpg" alt="Memory 10" data-date="25 Nov 2023 - Preface 💕">>
+      <img src="assets/images/pic11.jpg" alt="Memory 11" data-date="22 Dec 2023 - Hammem Sousse 💕">>
+      <img src="assets/images/pic12.jpg" alt="Memory 12" data-date="09 Fev 2024 - Hammem Sousse 💕">>
+      <img src="assets/images/pic13.jpg" alt="Memory 13" data-date="10 Fev 2024 - MALL 💕">>
+      <img src="assets/images/pic14.jpg" alt="Memory 14" data-date="01 Mar 2024 - Craquage 💕">>
+      <img src="assets/images/pic15.jpg" alt="Memory 15" data-date="01 Mar 2024 - Craquage 💕">>
+      <img src="assets/images/pic16.jpg" alt="Memory 16" data-date="11 Avr 2024 - Beach 💕">>
+      <img src="assets/images/pic17.jpg" alt="Memory 17" data-date="18 Avr 2024 - Bac Sport Day 💕">>
+      <img src="assets/images/pic18.jpg" alt="Memory 18" data-date="18 Avr 2024 - Bac Sport Day 💕">>
+      <img src="assets/images/pic19.jpg" alt="Memory 19" data-date="15 Fev 2024 - 💕">>
+      <img src="assets/images/pic20.jpg" alt="Memory 20" data-date="07 Juin 2024 - Il Cappo 💕">>
+      <img src="assets/images/pic21.jpg" alt="Memory 21" data-date="07 Jui 2024 - Il Cappo 💕">>
+      <img src="assets/images/pic22.jpg" alt="Memory 22" data-date="14 Jui 2024 - Soutenance 💕">>
+      <img src="assets/images/pic23.jpg" alt="Memory 23" data-date="07 Fev 2023 - Akouda 💕">>
+      <img src="assets/images/pic24.jpg" alt="Memory 24" data-date="07 Fev 2023 - Akouda 💕">>
+      <img src="assets/images/pic25.jpg" alt="Memory 25" data-date="09 Juil 2023 - MALL 💕">>
+      <img src="assets/images/pic26.jpg" alt="Memory 26" data-date="06 Avr 2025 - GYM 💕">>
+      <img src="assets/images/pic27.JPG" alt="Memory 27" data-date="16 Dec 2023 - Pathe 💕">>
+      <img src="assets/images/pic28.JPG" alt="Memory 28" data-date="16 Dec 2023 - Pathe 💕">>
+      <img src="assets/images/pic29.JPG" alt="Memory 29" data-date="06 Fev 2024 - Sousse 💕">>
+      <img src="assets/images/pic30.JPG" alt="Memory 30" data-date="02 Juin 2024 - Akouda 💕">>
+      <img src="assets/images/pic31.JPG" alt="Memory 31" data-date="27 Dec 2022 - Beach 💕">>
+      <img src="assets/images/pic32.JPG" alt="Memory 32" data-date="25 May 2023 - Hammem Sousse 💕">>
+      <img src="assets/images/pic33.JPG" alt="Memory 33" data-date="19 Juin 2023 - Pathe 💕">>
+      <img src="assets/images/pic34.JPG" alt="Memory 34" data-date="09 Juil 2023 - MALL 💕">>
+    </div>
+  </main>
+  <!-- Heart-shaped modal -->
+  <div id="imageModal" class="modal hidden">
+    <div class="heart">
+      <img id="modalImage" src="" alt="Big Memory" />
+      <p id="modalText"></p>
+    </div>
+  </div>
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
